@@ -11,7 +11,7 @@ ToggleSearch(*) {
     toggle := !toggle
 
     if (toggle)
-        SetTimer(FindAndClickPixel, 26)
+        SetTimer(FindAndClickPixel, 51)
     else
         SetTimer(FindAndClickPixel, 0)
 }
@@ -35,12 +35,12 @@ FindAndClickPixel() {
 
     if(PixelSearch(&posX, &posY, searchArea.x1, searchArea.y1, searchArea.x2, searchArea.y2, 0xc9d800, 5)){
         Click("down", posX, posY)
-        Sleep(25)
+        Sleep(50)
         Click("up", posX, posY)
     }
     if(PixelSearch(&posX, &posY, searchArea.x1, searchArea.y1, searchArea.x2, searchArea.y2, 0xef6775, 10)){
         Click("down", posX, posY)
-        Sleep(25)
+        Sleep(50)
         Click("up", posX, posY)
     }
     
