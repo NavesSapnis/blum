@@ -1,5 +1,5 @@
 
-# Blum clicker bot
+# Blum clicker bot v1.1
 
 clicker for playing Blum game
  
